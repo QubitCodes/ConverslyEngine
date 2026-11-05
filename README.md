@@ -2,6 +2,8 @@
 
 # Whatomate
 
+Owned-fork changes and upgrade checks: [Whatomate patch register](docs/WhatoMate_Patches/README.md).
+
 Modern, open-source WhatsApp Business Platform. Single binary app.
 
 ![Dashboard](docs/public/images/dashboard-light.png#gh-light-mode-only)
