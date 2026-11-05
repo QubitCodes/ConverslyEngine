@@ -6,7 +6,7 @@ the narrow role-authorization patch on 5 November 2026.
 
 | ID | Purpose | Upstream base | State | Evidence |
 | --- | --- | --- | --- | --- |
-| WM-001 | Require user-management permissions for role reads/writes; prevent custom-role self-escalation | `047127ce47d3ba631aa66da9bd62b2cee8bc2c68` | Implemented; regression checks and Go vet passed; deployment pending | [Patch](WM-001-role-authorization.patch), [record](WM-001-role-authorization.md) |
+| WM-001 | Require user-management permissions for role reads/writes; prevent custom-role self-escalation | `047127ce47d3ba631aa66da9bd62b2cee8bc2c68` | Deployed; regression checks, Go vet, runtime health and existing-tenant permission readback passed | [Patch](WM-001-role-authorization.patch), [record](WM-001-role-authorization.md) |
 
 For each upgrade, compare the proposed upstream code with every retained patch.
 Keep a patch until an equivalent upstream fix and the same regression tests pass.
